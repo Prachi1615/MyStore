@@ -1,0 +1,16 @@
+.brand__info{
+    margin-bottom: auto;
+    color:white;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    align-content: center;
+    display: flex;
+    padding: 95px;
+    
+}
+
+.product__brand{
+    display: flex;
+
+}
