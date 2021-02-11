@@ -1,54 +1,40 @@
 import React from 'react'
 import './Header.css';
 import { Link } from "react-router-dom";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import logo from "./dhuandhar.png"
+import AboutUs from "./AboutUs"
+import logo from "./logo.png"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 
 function Header() {
     return (
         <nav className="header">
             <Link to="/">
-                <img className="header__logo"
-                    src={logo}
-                    alt="" />
+                <img
+                    className="logo"
+                    src={logo}>
+
+                </img>
+
+            </Link>
+            <Link to="/aboutUs" >
+                <span className="header__option">
+                    About Us
+                </span>
+            </Link>
+            <Link to="/contactUs">
+                <span className="header__option">
+                    Contact Us
+                </span>
+            </Link>
+            <Link to="/FAQs">
+                <span className="header__option">
+                    FAQs
+                </span>
             </Link>
 
 
-            <div className="header__search">
-                <input type="text" className="header__searchInput" />
-            </div>
-
-            {/*3 links*/}
-            <div className="header__nav">
-                <Link to="/login" className="header__link">
-                    <div className="header__option">
-                        <span className="header__optionLineTwo">About Us</span>
-                    </div>
-                </Link>
-
-                <Link to="/" className="header__link">
-                    <div className="header__option">
-                        <span className="header__optionLineTwo">Contact Us</span>
-                    </div>
-                </Link>
-
-                <Link to="/" className="header__link">
-                    <div className="header__option">
-                        <span className="header__optionLineTwo">FAQs</span>
-                    </div>
-                </Link>
-
-
-                <Link to="/checkout" className="header__link">
-                    <div className="header__optionBasket">
-                        <ShoppingBasketIcon></ShoppingBasketIcon>
-                        <span className="header__optionLineTwo header__basketCount">0</span>
-                    </div>
-                </Link>
-
-            </div>
-            {/*basket icon*/}
         </nav>
     )
 }
