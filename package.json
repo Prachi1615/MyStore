@@ -1,6 +1,6 @@
 {
   "name": "dhuandhar_store",
-  "homepage": "www.dhuandhar.store",
+  "homepage": "http://www.dhuandhar.store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,8 +9,11 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "particle.js": "^1.0.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-particles": "^0.0.3",
+    "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
@@ -42,6 +45,25 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.1.0",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prachi1615/DhuanDhar.git"
+  },
+  "author": "prachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prachi1615/DhuanDhar/issues"
   }
 }

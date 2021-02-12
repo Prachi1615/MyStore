@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import Product from './Product';
 import logo from "./dhuandhar.png";
 
 function Home() {

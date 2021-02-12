@@ -1,0 +1,28 @@
+.content1{
+    margin-top: 80px;
+    font-family: Nasalisation;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-weight: 10;
+    text-align: center;
+    color: #808080;
+}
+.contact{
+    z-index: 100;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: wheat;
+    margin-top: 400px;
+}
+.heading{
+    font-family: Nasalization;
+    text-align: center;
+    margin-top: 250px;
+    color: #808080;
+}
+.location{
+    color: teal;
+    background-color: teal;
+}
