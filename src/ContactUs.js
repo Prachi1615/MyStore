@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 
 function ContactUs() {
     return (
@@ -21,16 +20,20 @@ function ContactUs() {
                     </div>
                     <br />
                     <br />
-                    <div className="content2">
+                    {/* <div className="content1">
                         <h3>Location:</h3>
-                        <Link to={{ path: "https://goo.gl/maps/wLvNWq6pAht1B2xS7" }}>https://goo.gl/maps/wLvNWq6pAht1B2xS7</Link>
-                    </div>
+                        <a href="/contactUs/location"
+                            className="location"
+                            target="_blank">
+                            loca
+                            </a>
+
+                    </div> */}
 
                 </div>
 
-
-
             </div>
+
 
         </div>
 

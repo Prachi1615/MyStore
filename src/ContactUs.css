@@ -13,7 +13,6 @@
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    text-decoration: none;
     color: wheat;
     margin-top: 400px;
 }
@@ -22,4 +21,8 @@
     text-align: center;
     margin-top: 250px;
     color: #808080;
+}
+.location{
+    color: teal;
+    background-color: teal;
 }

@@ -1,8 +1,5 @@
 import React from 'react';
 import './AboutUs.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import logo from "./dhuandhar.png"
-import Particle from 'react-particles-js'
 
 function AboutUs() {
     return (

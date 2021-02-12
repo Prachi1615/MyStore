@@ -1,10 +1,7 @@
 import React from 'react'
 import './Header.css';
 import { Link } from "react-router-dom";
-import AboutUs from "./AboutUs"
 import logo from "./logo.png"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 
 
 function Header() {
@@ -12,6 +9,7 @@ function Header() {
         <nav className="header">
             <Link to="/">
                 <img
+                    alt=""
                     className="logo"
                     src={logo}>
 
