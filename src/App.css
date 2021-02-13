@@ -1,9 +1,15 @@
 * {
   margin:0;
+
 }
 
 .App{
   background-color: black;
   background: black;
+  z-index: 2;
 }
 
+.particle{
+  z-index: 0;
+  opacity: 0.2;
+}

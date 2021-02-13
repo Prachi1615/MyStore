@@ -6,72 +6,93 @@ import Home from "./Home";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import FAQ from "./FAQ"
+import smoke from './smoke.png'
 
 import Particle from 'react-particles-js'
-
 
 function App() {
   return (
 
     <div className="App">
+
       <Particle className="particle"
         params={{
-          particles: {
-            particles: {
-              number: { value: 80, density: { enable: true, value_area: 800 } },
-              color: { value: "#ffffff" },
-              shape: {
-                type: "circle",
-                stroke: { width: 0, color: "#000000" },
-                polygon: { nb_sides: 5 },
-                image: { src: "img/github.svg", width: 100, height: 100 }
+          "particles": {
+            "number": {
+              "value": 100,
+              "density": {
+                "enable": true
               },
-              opacity: {
-                value: 0.3,
-                random: false,
-                anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
-              },
-              size: {
-                value: 3,
-                random: true,
-                anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
-              },
-              line_linked: {
-                enable: true,
-                distance: 150,
-                color: "#ffffff",
-                opacity: 0.4,
-                width: 1
-              },
-              move: {
-                enable: true,
-                speed: 6,
-                direction: "none",
-                random: false,
-                straight: false,
-                out_mode: "out",
-                bounce: false,
-                attract: { enable: false, rotateX: 600, rotateY: 1200 }
+
+            },
+            "shape": {
+              "type": "image",
+              "options": {
+                "image":
+                {
+                  src: "https://clipart-best.com/img/smoke/smoke-clip-art-32.png"
+                }
               }
             },
-            interactivity: {
-              detect_on: "canvas",
-              events: {
-                onhover: { enable: true, mode: "repulse" },
-                onclick: { enable: true, mode: "push" },
-                resize: true
-              },
-              modes: {
-                grab: { distance: 400, line_linked: { opacity: 1 } },
-                bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
-                repulse: { distance: 200, duration: 0.4 },
-                push: { particles_nb: 4 },
-                remove: { particles_nb: 2 }
+
+            "size": {
+              "value": 300,
+              "random": false,
+              "anim": {
+                "speed": 0.4,
+                "size_min": 0.1
               }
             },
-            retina_detect: true
+            "line_linked": {
+              "enable": false,
+              "color": "#5A504D",
+              "width": 5000,
+              "opacity": 0.4
+            },
+            "move": {
+              "random": true,
+              "speed": 0.4,
+              "direction": "top",
+              "out_mode": "out"
+            }
           },
-        }}>
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "slow",
+                "speed": "0.2"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "repulse"
+              }
+            },
+            "opacity": {
+              "value": 0.1,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "opacity_max": "0.1",
+                "sync": false
+              }
+            },
+            "modes": {
+              "bubble": {
+                "distance": 3,
+                "duration": 2,
+                "size": 0,
+                "opacity": 1
+              },
+              "repulse": {
+                "distance": 300,
+                "duration": 4
+              }
+            }
+          }
+        }}    >
 
       </Particle>
 
