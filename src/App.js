@@ -65,7 +65,8 @@ function App() {
               },
               "onclick": {
                 "enable": true,
-                "mode": "repulse"
+                "mode": "repulse",
+                "speed": "0.3"
               }
             },
             "opacity": {
