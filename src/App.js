@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import AboutUs from "./AboutUs";
@@ -19,7 +19,7 @@ function App() {
         params={{
           "particles": {
             "number": {
-              "value": 100,
+              "value": 200,
               "density": {
                 "enable": true
               },
@@ -30,13 +30,13 @@ function App() {
               "options": {
                 "image":
                 {
-                  src: "https://clipart-best.com/img/smoke/smoke-clip-art-32.png"
+                  src: "https://clipart-best.com/img/smoke/smoke-clip-art-14.png"
                 }
               }
             },
 
             "size": {
-              "value": 300,
+              "value": 200,
               "random": false,
               "anim": {
                 "speed": 0.4,
@@ -60,13 +60,13 @@ function App() {
             "events": {
               "onhover": {
                 "enable": true,
-                "mode": "slow",
+                "mode": "bubble",
                 "speed": "0.2"
               },
               "onclick": {
                 "enable": true,
                 "mode": "repulse",
-                "speed": "0.3"
+                "speed": "0.8"
               }
             },
             "opacity": {
@@ -88,8 +88,8 @@ function App() {
                 "opacity": 1
               },
               "repulse": {
-                "distance": 300,
-                "duration": 4
+                "distance": 100,
+                "duration": 2
               }
             }
           }
