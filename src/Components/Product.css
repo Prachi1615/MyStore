@@ -1,0 +1,44 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .product > img {
+    max-height: 50px;
+    width: 50px;
+    object-fit: contain;
+  }
+
+  .product__title {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: blanchedalmond;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-family:CrimsonBold;
+  }
+  .product__info {
+    font-size: 10px;
+    margin-bottom: 15px;
+    color: blanchedalmond;
+    align-items: center;
+    text-align: center;
+    font-family:SourceSans;
+  }
+  .product__price {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    display: flex;
+    font-family:SourceSans;
+  }

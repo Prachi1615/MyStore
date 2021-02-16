@@ -1,4 +1,5 @@
 import React from 'react'
+import "./ContactUs.css"
 
 function ContactUs() {
     return (
@@ -20,15 +21,7 @@ function ContactUs() {
                     </div>
                     <br />
                     <br />
-                    {/* <div className="content1">
-                        <h3>Location:</h3>
-                        <a href="/contactUs/location"
-                            className="location"
-                            target="_blank">
-                            loca
-                            </a>
 
-                    </div> */}
 
                 </div>
 

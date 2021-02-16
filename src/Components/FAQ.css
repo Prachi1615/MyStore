@@ -9,19 +9,19 @@
     
 }
 .heading{
-    font-family: Nasalization;
+    font-family:CrimsonBold;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
     color: #808080;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 
 }
 .content1{
-    margin-top: 20px;
-    font-family: Nasalisation;
+    margin-top: 15px;
+    font-family: SourceSans;
     font-size: 22px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 10;
     color: #808080;
     display: inline-flexbox;
@@ -29,7 +29,7 @@
     orientation: verticle;
 }
 .question{
-    font-family: Nasalisation;
+    font-family: SourceSans;
     font-size: 18px;
     font-weight: 10;
     color: #808080;
@@ -40,7 +40,8 @@
     
 }
 .answer{
-    font-family: Nasalisation;
+    align-items: flex-start;
+    font-family: SourceSans;
     font-size: 18px;
     font-weight: 10;
     color: #808080;

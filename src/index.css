@@ -16,10 +16,20 @@ code {
   font-family: 'Nasalization';
   src: local('Nasalization'), url(./fonts/nasalization-rg.ttf) format('truetype');
 }
-
-.particle{
-  position:absolute;
+@font-face {
+  font-family: 'Crimson';
+  src: local('Crimson'), url(./fonts/CrimsonText-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'CrimsonBold';
+  src: local('Crimson'), url(./fonts/CrimsonText-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'SourceSans';
+  src: local('SourceSans'), url(./fonts/SourceSansPro-Regular.ttf) format('truetype');
+}
+:root{
   width: 100%;
   height: 100%;
-  z-index: 0 !important;
 }
+

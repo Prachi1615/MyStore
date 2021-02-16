@@ -7,7 +7,7 @@ function AboutUs() {
 
 
             <div>
-                <h2 className="heading">About Us</h2>
+                <h2 className="heading1">ABOUT US</h2>
                 <div >
                     <div className="content1">
                         A Business Oriented Entreprenuer, an Aspirant Accountant,

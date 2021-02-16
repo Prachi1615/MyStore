@@ -1,0 +1,33 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    opacity: 0.4;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+  .category > img {
+    max-height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    color: #808080;
+  }
+
+  .category__info {
+    height: 100px;
+    margin-bottom: 15px;
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px;
+    font-family:SourceSans;
+  }

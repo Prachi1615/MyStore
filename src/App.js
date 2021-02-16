@@ -3,10 +3,13 @@ import './App.css';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
-import AboutUs from "./AboutUs";
-import ContactUs from "./ContactUs";
-import FAQ from "./FAQ"
-import smoke from './smoke.png'
+import AboutUs from "./Components/AboutUs";
+import ContactUs from "./Components/ContactUs";
+import FAQ from "./Components/FAQ"
+import Menu from './Components/Menu'
+import Cigs from './Components/Ciggarettes'
+import Hookah from './Components/Hookah'
+import Food from './Components/FoodNDrinks'
 
 import Particle from 'react-particles-js'
 
@@ -19,7 +22,7 @@ function App() {
         params={{
           "particles": {
             "number": {
-              "value": 200,
+              "value": 150,
               "density": {
                 "enable": true
               },
@@ -27,10 +30,12 @@ function App() {
             },
             "shape": {
               "type": "image",
+              "color": "",
               "options": {
                 "image":
                 {
-                  src: "https://clipart-best.com/img/smoke/smoke-clip-art-14.png"
+                  src: "https://i.ibb.co/85Wx921/2.png"
+
                 }
               }
             },
@@ -70,7 +75,7 @@ function App() {
               }
             },
             "opacity": {
-              "value": 0.1,
+              "value": 7,
               "random": true,
               "anim": {
                 "enable": false,
@@ -104,6 +109,7 @@ function App() {
           <Route exact path="/">
             <Header />
             <Home />
+            <Menu />
 
           </Route>
 
@@ -120,6 +126,18 @@ function App() {
             <Header />
             <FAQ />
           </Route>
+          <Route exact path="/cigarettes">
+            <Header />
+            <Cigs />
+          </Route>
+          <Route exact path="/hookah">
+            <Header />
+            <Hookah />
+          </Route>
+          <Route exact path="/food&drinks">
+            <Header />
+            <Food />
+          </Route>
 
           {/* <Route path="/contactUs/location"
             component={() => window.location = 'https://goo.gl/maps/wLvNWq6pAht1B2xS7'}
@@ -131,7 +149,7 @@ function App() {
         </Switch>
       </Router>
 
-    </div>
+    </div >
 
 
   );

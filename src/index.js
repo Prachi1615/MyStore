@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './fonts/nasalization-rg.ttf'
+import './fonts/CrimsonText-Regular.ttf'
+import './fonts/CrimsonText-Bold.ttf'
+import './fonts/SourceSansPro-Regular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

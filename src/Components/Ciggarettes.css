@@ -1,0 +1,17 @@
+.ciggarettes{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    z-index: 1;
+    justify-content: center;
+    margin-top: 50px;
+}
+.brand{
+    color: #808080;
+    font-size: 13px;
+    font-weight: 100;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
