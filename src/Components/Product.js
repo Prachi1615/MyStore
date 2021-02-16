@@ -1,11 +1,15 @@
 import React from 'react';
 import "./Product.css"
+function NewlineText(props) {
+    const text = props.text;
+    return text.split('\n').map(str => <p>{str}</p>);
+}
 
 function Product({ id, title, image, price, quantity, content }) {
     return (
         <div className="product">
             <div className="product__title">
-                <p>{title}</p>
+                <NewlineText text={title}></NewlineText>
             </div>
 
             <img src={image} alt="" />
