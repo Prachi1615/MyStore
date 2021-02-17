@@ -16,37 +16,54 @@ function Ciggarettes() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title="GOLD FLAKE KING"
+                        title={"GOLD FLAKE \nKINGS"}
                         price=" 330"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="GOLD FLAKE LIGHTS"
+                        title={"GOLD FLAKE \nKINGS"}
+                        price=" 165"
+                        content="Pack of 10"> </Product>
+                    <Product
+                        title={"GOLD FLAKE \nLIGHTS"}
                         price=" 330"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="GOLD FLAKE SMALL"
+                        title={"GOLD FLAKE \nLIGHTS"}
+                        price=" 165"
+                        content="Pack of 10"> </Product>
+                    <Product
+                        title={"CLASSIC \nMILDS"}
+                        price=" 330"
+                        content="Pack of 20"> </Product>
+                    <Product
+                        title={"CLASSIC \nULTRA MILDS"}
+                        price=" 330"
+                        content="Pack of 20"> </Product>
+
+                    <Product
+                        title={"CLASSIC \nICE BURST"}
+                        price=" 330"
+                        content="Pack of 20"> </Product>
+                    <Product
+                        title={"CLASSIC \nLOW SMELL"}
+                        price=" 330"
+                        content="Pack of 20"> </Product>
+                    <Product
+                        title={"GOLD FLAKE \nSMALL"}
                         price=" 100"
                         content="Pack of 10"> </Product>
                     <Product
-                        title="GOLD FLAKE"
+                        title="FLAKE PREMIUM"
                         price=" 80"
                         content="Pack of 10"> </Product>
                     <Product
-                        title="CLASSIC ULTRA MILDS"
-                        price=" 330"
-                        content="Pack of 20"> </Product>
+                        title="BERKLEY"
+                        price="60"
+                        content="Pack of 10"> </Product>
                     <Product
-                        title="CLASSIC MILD"
-                        price=" 330"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="CLASSIC LOW SMELL"
-                        price=" 330"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="CLASSIC ICE BURST"
-                        price=" 330"
-                        content="Pack of 20"> </Product>
+                        title="PLAYER's"
+                        price="60"
+                        content="Pack of 10"> </Product>
 
                 </Grid>
             </div>
@@ -60,19 +77,19 @@ function Ciggarettes() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title="MARLBORO DOUBLE SWITCH"
+                        title={"MARLBORO \nRED"}
                         price="330"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="MARLBORO RED"
+                        title={"MARLBORO \nADVANCE"}
                         price="330"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="MARLBORO GOLD"
+                        title={"MARLBORO \nGOLD"}
                         price="330"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="MARLBORO ADVANCE"
+                        title={"MARLBORO \nDOUBLE SWITCH"}
                         price="330"
                         content="Pack of 20"> </Product>
                 </Grid>
@@ -118,11 +135,11 @@ function Ciggarettes() {
                         price="305"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="DAVIDOFF WHITE SLIM"
+                        title={"DAVIDOFF WHITE \nSLIM"}
                         price="290"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="DAVID OFF GOLD SLIM"
+                        title={"DAVID OFF GOLD \nSLIM"}
                         price="290"
                         content="Pack of 20"> </Product>
                 </Grid>
@@ -161,11 +178,11 @@ function Ciggarettes() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title="MOND GREEN APPLE"
+                        title={"MOND \nGREEN APPLE"}
                         price="120"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="MOND STRAWBERRY"
+                        title={"MOND \nSTRAWBERRY"}
                         price="120"
                         content="Pack of 20"> </Product>
                 </Grid>
@@ -198,14 +215,7 @@ function Ciggarettes() {
                 <Grid className="grid"
                     container direction="row"
                     justify="center">
-                    <Product
-                        title="BERKLEY"
-                        price="60"
-                        content="Pack of 10"> </Product>
-                    <Product
-                        title="PLAYER's"
-                        price="60"
-                        content="Pack of 10"> </Product>
+
                     <Product
                         title="PARIS"
                         price="140"
@@ -219,7 +229,7 @@ function Ciggarettes() {
                         price="140"
                         content="Pack of 20"> </Product>
                     <Product
-                        title="GUDAND GARAM"
+                        title="GUDANG GARAM"
                         price="140"
                         content="Pack of 12"> </Product>
                 </Grid>

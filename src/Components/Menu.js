@@ -18,20 +18,12 @@ function Menu() {
                     <div className="prod_row">
                         <Category
                             title="CIGARETTES"
-                            image="https://clipart-best.com/img/cigarette/cigarette-clip-art-25.png">
+                            image="https://clipart-best.com/img/cigarette/cigarette-clip-art-29.png">
 
                         </Category>
                     </div>
                 </Link>
-                <Link to="/hookah">
-                    <div className="prod_row">
-                        <Category
-                            title="HOOKAH"
-                            image="https://www.pikpng.com/pngl/b/100-1004594_gypsy-29-hookah-green-hookah-png-clipart.png">
 
-                        </Category>
-                    </div>
-                </Link>
                 <Link to="/food&drinks">
                     <div className="prod_row">
                         <Category
@@ -46,6 +38,24 @@ function Menu() {
                         <Category
                             title="LIGHTERS"
                             image="https://clipart-best.com/img/lighter/lighter-clip-art-30.png">
+
+                        </Category>
+                    </div>
+                </Link>
+                <Link to="/hookah">
+                    <div className="prod_row">
+                        <Category
+                            title="HOOKAH"
+                            image="https://www.pikpng.com/pngl/b/100-1004594_gypsy-29-hookah-green-hookah-png-clipart.png">
+
+                        </Category>
+                    </div>
+                </Link>
+                <Link to="/medwakh">
+                    <div className="prod_row">
+                        <Category
+                            title="MEDWAKH AND DOKHA"
+                            image="https://clipart-best.com/img/cigarette/cigarette-clip-art-8.png">
 
                         </Category>
                     </div>

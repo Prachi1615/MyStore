@@ -16,15 +16,15 @@ function Lighters() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title="PLASTIC CIGARETTE LIGHTER"
+                        title={"PLASTIC \nCIGARETTE LIGHTER"}
                         price=" 9"
                         content="per piece"> </Product>
                     <Product
-                        title="FANCY CIGARETTE LIGHTER"
+                        title={"FANCY \nCIGARETTE LIGHTER"}
                         price=" 25"
                         content="per piece"> </Product>
                     <Product
-                        title="FANCY METAL CIGARETTE LIGHTERS"
+                        title={"FANCY METAL \nCIGARETTE LIGHTERS"}
                         price=" 50"
                         content="per piece"> </Product>
                     <Product

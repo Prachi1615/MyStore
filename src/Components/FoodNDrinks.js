@@ -16,11 +16,13 @@ function FoodNDrinks() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title={'BADAM MILK \nHOMEMADE'}
-                        price=" 60"> </Product>
+                        title={'BADAM MILK'}
+                        price=" 60"
+                        content="HOMEMADE"> </Product>
                     <Product
-                        title={'LASSI \nHOMEMADE'}
-                        price=" 60"> </Product>
+                        title={'LASSI'}
+                        price=" 60"
+                        content="HOMEMADE"> </Product>
                     <Product
                         title={'RED BULL \nENERGY DRINK'}
                         price=" 115"> </Product>
@@ -52,10 +54,10 @@ function FoodNDrinks() {
                         title={'HERSHEY\'S \nCOOKIE \'N\' CREAM \nMILK'}
                         price=" 35"> </Product>
                     <Product
-                        title={'BISLERY SODA '}
+                        title={'BISLERI SODA '}
                         price=" 20"> </Product>
                     <Product
-                        title={'HELL \nenergy drink '}
+                        title={'HELL \nENERGY DRINK '}
                         price=" 50"> </Product>
 
                 </Grid>
@@ -89,19 +91,19 @@ function FoodNDrinks() {
                         title={"HERSHEY'S COOKIE 'N' \n CREAM CHOCOLATE BAR"}
                         price=" 130"> </Product>
                     <Product
-                        title={"CADBURY DIARY MILK \n SILK FRUIT & NUT "}
+                        title={"CADBURY  DAIRY MILK \n SILK FRUIT & NUT "}
                         price=" 175"> </Product>
                     <Product
-                        title={"CADBURY DIARY \n MILK SILK HAZELNUT"}
+                        title={"CADBURY  DAIRY MILK \nSILK HAZELNUT"}
                         price=" 175"> </Product>
                     <Product
-                        title={"CADBURY DIARY \nMILK SILK BUBBLY"}
+                        title={"CADBURY  DAIRY MILK \nSILK BUBBLY"}
                         price=" 175"> </Product>
                     <Product
-                        title={"CADBURY DIARY\n MILK SILK OREO"}
+                        title={"CADBURY  DAIRY MILK \nSILK OREO"}
                         price=" 175"> </Product>
                     <Product
-                        title={"AMUL RAISIN N ALMOND \nMILK CHOCOLATE BAR "}
+                        title={"AMUL RAISIN 'N' ALMOND \nMILK CHOCOLATE BAR "}
                         price=" 200"> </Product>
                     <Product
                         title={"AMUL HAZELNUT \n CHOCOLATE BAR"}
@@ -151,6 +153,30 @@ function FoodNDrinks() {
             </div>
             <div className="brand">
                 <h1>
+                    SOUR PUNK
+                </h1>
+                <br />
+
+                <Grid className="grid"
+                    container direction="row"
+                    justify="center">
+                    <Product
+                        title={"SOUR PUNK \nGREEN APPLE"}
+                        price=" 30"> </Product>
+                    <Product
+                        title={"SOUR PUNK \nSTRAWBERRY"}
+                        price=" 30"> </Product>
+                    <Product
+                        title={"SOUR PUNK \nBLUEBERRY"}
+                        price=" 30"> </Product>
+                    <Product
+                        title={"SOUR PUNK \nCOLA"}
+                        price=" 30"> </Product>
+
+                </Grid>
+            </div>
+            <div className="brand">
+                <h1>
                     IMPORTED CHOCOLATES AND SNACKS
                 </h1>
                 <br />
@@ -159,7 +185,49 @@ function FoodNDrinks() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title={"POP TART \n(ROSTED CHOCOLATE CHIP)"}
+                        title={" LINDT SUAVE \n50% cocoa"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={"LINDT LIMON"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nCOCONUT INTENSE"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nORANGE INTENSE"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT DARK \n85% cocoa"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nPOIRE INTENSE"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nCHERRY INTENSE"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nSTRAWBERRY INTENSE"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nCHILLI DARK"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \n90% COCOA"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nEXTRA CREMOSO"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nCARAMEL"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \n70% COCOA"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" LINDT \nAPRICOT INTENSE"}
+                        price=" 395"> </Product>
+                    <Product
+                        title={" POP TART \n(ROASTED CHOCOLATE CHIP)"}
                         price=" 500"
                         content="8 piece per box"> </Product>
                     <Product
@@ -170,7 +238,7 @@ function FoodNDrinks() {
                         title={"PRINGLES \nSALT AND VINEGAR"}
                         price=" 175"> </Product>
                     <Product
-                        title={"PRINGLES THE ORIGINAL"}
+                        title={"PRINGLES \nTHE ORIGINAL"}
                         price=" 175"> </Product>
                     <Product
                         title={"PRINGLES \nBBQ"}
@@ -179,7 +247,7 @@ function FoodNDrinks() {
                         title={"PRINGLES \nCHEESY CHEESE"}
                         price=" 175"> </Product>
                     <Product
-                        title={"TOBLERON YELLOW"}
+                        title={"TOBLERONE \nMILK CHOCOLATE"}
                         price=" 130"> </Product>
                     <Product
                         title={"BOUNTY"}
@@ -194,50 +262,122 @@ function FoodNDrinks() {
                         title={"RAFAELLO T3"}
                         price=" 110"> </Product>
                     <Product
-                        title={"MAGIC POP \nSTRAWBERRY"}
+                        title={"MAGIC  POPS \nSTRAWBERRY"}
                         price=" 10"> </Product>
                     <Product
-                        title={"MAGIC POP \nGREEN APPLE"}
+                        title={"MAGIC  POPS \nGREEN APPLE"}
                         price=" 10"> </Product>
                     <Product
-                        title={"MAGIC POP \nCOLA"}
+                        title={"MAGIC  POPS \nCOLA"}
                         price=" 10"> </Product>
                     <Product
-                        title={"MAGIC POP \nLEMON"}
+                        title={"MAGIC  POPS \nLEMON"}
                         price=" 10"> </Product>
                     <Product
-                        title={"MAGIC POP \nORANGE"}
+                        title={"MAGIC  POPS \nORANGE"}
                         price=" 10"> </Product>
                     <Product
-                        title={"MAGIC POP \nGRAPE"}
+                        title={"MAGIC  POPS \nGRAPE"}
                         price=" 10"> </Product>
                     <Product
                         title={"SKITTLES \nTROPICAL"}
                         price=" 65"> </Product>
                     <Product
-                        title={"SKITTLES \nSOURS"}
+                        title={"SKITTLES \nCRAZY SOURS"}
                         price=" 65"> </Product>
                     <Product
                         title={"SKITTLES \nWILD BERRY"}
                         price=" 65"> </Product>
                     <Product
-                        title={"DIARY MILK \nIMPORTED"}
+                        title={" CADBURY \nDARK MILK "}
                         price=" 350"> </Product>
                     <Product
-                        title={"CADBURY DIARY MILK \nBLACK FOREST"}
+                        title={"CADBURY  DAIRY MILK \nBLACK FOREST"}
                         price=" 350"> </Product>
                     <Product
-                        title={"CADBURY DIARY \nMILK ORIGINAL"}
+                        title={"CADBURY  DAIRY MILK \nORIGINAL"}
                         price=" 350"> </Product>
                     <Product
-                        title={"CADBURY DIARY MILK \nHAZELNUT"}
+                        title={"CADBURY  DAIRY MILK \nHAZELNUT"}
                         price=" 350"> </Product>
                     <Product
-                        title={"CADBURY DIARY MILK \nFRUIT & NUT"}
+                        title={"CADBURY  DAIRY MILK \nFRUIT & NUT"}
                         price=" 350"> </Product>
                     <Product
-                        title={"CADBURY DIARY MILK \nROSTED ALMONDS"}
+                        title={"CADBURY  DAIRY MILK \n ROASTED ALMONDS"}
                         price=" 350"> </Product>
+                    <Product
+                        title={"KINDER BUENO"}
+                        price=" 110"> </Product>
+                    <Product
+                        title={"KITKAT IMPORTED"}
+                        price=" 50"> </Product>
+                    <Product
+                        title={"NUTELLA B-READY"}
+                        price=" 80"> </Product>
+                    <Product
+                        title={"M&M's \nPEANUT COATED\nMILK CHOCOLATE TRUFFLES"}
+                        price=" 80"> </Product>
+                    <Product
+                        title={"M&M's \nMILK CHOCOLATE CANDIES"}
+                        price=" 80"> </Product>
+                    <Product
+                        title={"FOX'S BERRIES "}
+                        price=" 120"
+                        content="per tin"> </Product>
+                    <Product
+                        title={"FOX'S FRUITS"}
+                        price=" 120"
+                        content="per tin"> </Product>
+                    <Product
+                        title={"MINI OREO \nMOCHA "}
+                        price=" 90"
+                        content="per box"> </Product>
+                    <Product
+                        title={"MINI OREO \nCHOCOLATE"}
+                        price=" 90"
+                        content="per box"> </Product>
+                    <Product
+                        title={"MINI OREO \nSTRAWBERRY"}
+                        price=" 90"
+                        content="per box"> </Product>
+                    <Product
+                        title={"GERY SUGAR \nCHEESE CRACKERS"}
+                        price=" 60"
+                        content="per box"> </Product>
+
+                </Grid>
+            </div>
+            <div className="brand">
+                <h1>
+                    PROTEIN BARS
+                </h1>
+                <br />
+
+                <Grid className="grid"
+                    container direction="row"
+                    justify="center">
+                    <Product
+                        title={"PEANUT BUTTER"}
+                        price=" 40"> </Product>
+                    <Product
+                        title={"CHOCO BERRY BAR"}
+                        price=" 65"> </Product>
+                    <Product
+                        title={"BLUEBERRY PIE"}
+                        price=" 50"> </Product>
+                    <Product
+                        title={"APRICOT FIG"}
+                        price=" 50"> </Product>
+                    <Product
+                        title={"YOGURT BERRY"}
+                        price=" 35"> </Product>
+                    <Product
+                        title={"NUTS & SEEDS"}
+                        price=" 40"> </Product>
+                    <Product
+                        title={"CHOCO DELITE"}
+                        price=" 35"> </Product>
 
 
                 </Grid>
