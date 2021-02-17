@@ -17,7 +17,7 @@ function FoodNDrinks() {
                     justify="center">
                     <Product
                         title={'BADAM MILK'}
-                        price=" 60"
+                        price=" 70"
                         content="HOMEMADE"> </Product>
                     <Product
                         title={'LASSI'}
