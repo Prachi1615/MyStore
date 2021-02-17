@@ -19,13 +19,13 @@
     width: 100px;
     object-fit: contain;
     margin-bottom: 15px;
-    color: #808080;
+    color: #b9b4b4;
   }
 
   .category__info {
     height: 100px;
     margin-bottom: 15px;
-    color: blanchedalmond;
+    color: #dad3d3;
     text-align: center;
     font-weight: 900;
     font-size: 16px;

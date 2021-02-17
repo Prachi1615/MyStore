@@ -17,7 +17,7 @@ code {
   src: local('Nasalization'), url(./fonts/nasalization-rg.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Crimson';
+  font-family: 'CrimsonR';
   src: local('Crimson'), url(./fonts/CrimsonText-Regular.ttf) format('truetype');
 }
 @font-face {

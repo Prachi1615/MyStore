@@ -19,12 +19,12 @@ function Header() {
             </Link>
             <Link to="/aboutUs" >
                 <span className="header__option">
-                    About Us
+                    ABOUT US
                 </span>
             </Link>
             <Link to="/contactUs">
                 <span className="header__option">
-                    Contact Us
+                    CONTACT US
                 </span>
             </Link>
             <Link to="/FAQs">

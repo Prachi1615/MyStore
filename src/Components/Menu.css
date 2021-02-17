@@ -5,13 +5,14 @@
     z-index: 1;
     justify-content: center;
 }
-.title{
+.title_menu{
     color:#808080;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 900;
     justify-content: center;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-family:CrimsonBold;
+    font-family:SourceSans;
 }
 .prod_row{
     display: flex;

@@ -7,7 +7,7 @@ function ContactUs() {
 
 
             <div>
-                <h1 className="heading">Contact Us</h1>
+                <h1 className="heading2">CONTACT US</h1>
                 <div >
                     <div className="content1">
                         <h3>Call us on:</h3>

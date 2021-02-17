@@ -7,7 +7,7 @@ import Grid from "@material-ui/core/Grid"
 function Menu() {
     return (
         <nav className="menu">
-            <div className="title">
+            <div className="title_menu">
                 OUR PRODUCTS
             </div>
 
@@ -37,6 +37,15 @@ function Menu() {
                         <Category
                             title="SNACKS AND BEVERAGES"
                             image="https://www.pinclipart.com/picdir/big/422-4226856_bbq-clipart-free-food-clipart-black-and-white.png">
+
+                        </Category>
+                    </div>
+                </Link>
+                <Link to="/lighter">
+                    <div className="prod_row">
+                        <Category
+                            title="LIGHTERS"
+                            image="https://clipart-best.com/img/lighter/lighter-clip-art-30.png">
 
                         </Category>
                     </div>

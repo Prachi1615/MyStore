@@ -17,16 +17,18 @@
     flex-direction: column;
     color: #808080;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 18px;
     font-family:CrimsonBold;
     text-decoration-color: unset;
     justify-content: space-evenly;
+    text-align: center;
     
 }
 :link{
     text-decoration-line: none;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
 }
 
 .logo{

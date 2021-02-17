@@ -19,18 +19,18 @@
   }
 
   .product__title {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 15px;
-    color: blanchedalmond;
+    color: #dad3d3;
     align-items: center;
     text-align: center;
     font-weight: 600;
-    font-family:CrimsonBold;
+    font-family:SourceSans;
   }
   .product__info {
     font-size: 10px;
     margin-bottom: 15px;
-    color: blanchedalmond;
+    color: #dad3d3;
     align-items: center;
     text-align: center;
     font-family:SourceSans;

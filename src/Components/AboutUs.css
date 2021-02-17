@@ -1,5 +1,5 @@
 .about{
-    z-index: 100;
+    z-index: 80;
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -7,19 +7,19 @@
     color: wheat;
 }
 .heading1{
-    font-family:CrimsonBold;
+    font-family:SourceSans;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     color: #808080;
     z-index: 100;
+    font-weight: 1000;
 }
 .content1{
     margin-top: 30px;
     font-family: SourceSans;
     font-size: 22px;
-    margin-left: 80px;
-    margin-right: 80px;
-    font-weight: 10;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: #000000;
     z-index: 100;
@@ -28,9 +28,8 @@
     margin-top: 10px;
     font-family: SourceSans;
     font-size: 22px;
-    margin-left: 80px;
-    margin-right: 80px;
-    font-weight: 10;
+    margin-left: auto;
+    margin-right: auto;
     color: #808080;
     text-align: center;
     z-index: 100;

@@ -10,6 +10,7 @@ import Menu from './Components/Menu'
 import Cigs from './Components/Ciggarettes'
 import Hookah from './Components/Hookah'
 import Food from './Components/FoodNDrinks'
+import Lighter from './Components/Lighters'
 
 import Particle from 'react-particles-js'
 
@@ -137,6 +138,10 @@ function App() {
           <Route exact path="/food&drinks">
             <Header />
             <Food />
+          </Route>
+          <Route exact path="/lighter">
+            <Header />
+            <Lighter />
           </Route>
 
           {/* <Route path="/contactUs/location"
