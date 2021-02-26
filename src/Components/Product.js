@@ -5,7 +5,7 @@ function NewlineText(props) {
     return text.split('\n').map(str => <p>{str}</p>);
 }
 
-function Product({ id, title, image, price, quantity, content }) {
+function Product({ id, title, image, price, quantity, content, category }) {
     return (
         <div className="product">
 

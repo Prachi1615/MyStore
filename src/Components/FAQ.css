@@ -12,7 +12,7 @@
     font-family:SourceSans;
     text-align: center;
     margin-top: 60px;
-    color: #808080;
+    color: #ffffff;
     margin-bottom: 50px;
     font-size: 30px;
     font-weight: 1000;
@@ -25,7 +25,7 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: 10;
-    color: #808080;
+    color: #ffffff;
     display: inline-flexbox;
     z-index: 1;
     orientation: verticle;
@@ -34,7 +34,7 @@
     font-family: SourceSans;
     font-size: 18px;
     font-weight: 10;
-    color: #808080;
+    color: #ffffff;
     display: inline-flex;
     text-align: center;
     
@@ -46,7 +46,7 @@
     font-family: SourceSans;
     font-size: 18px;
     font-weight: 10;
-    color: #808080;
+    color: #ffffff;
     display: inline-flex;
     text-align: center;
 }

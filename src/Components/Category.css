@@ -3,29 +3,28 @@
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     background-color: #000000;
-    opacity: 0.4;
+    opacity: 0.5;
     z-index: 1;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 20px;
     
     
   }
   .category > img {
-    max-height: 100px;
-    width: 100px;
+    max-height: 65px;
+    width: 65px;
     object-fit: contain;
     margin-bottom: 15px;
-    color: #b9b4b4;
+    color: #ffffff;
   }
 
   .category__info {
-    height: 100px;
-    margin-bottom: 15px;
-    color: #dad3d3;
+    margin-bottom: 10px;
+    color: #ffffff;
     text-align: center;
     font-weight: 900;
     font-size: 16px;

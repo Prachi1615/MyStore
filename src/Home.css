@@ -10,11 +10,11 @@
     margin-right: auto;
     width: 50%;
     height: 50%;
-    mask-image: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0));
     animation: normal;
     justify-content: center;
     display: flex;
     flex: 1;
-    opacity: 0.6;
+    opacity: 0.9;
     
 }

@@ -6,7 +6,7 @@
     width: fit-content;
     height: fit-content;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.5;
     z-index: 1;
     margin-left: 20px;
     margin-right: 20px;
@@ -21,7 +21,7 @@
   .product__title {
     font-size: 16px;
     margin-bottom: 15px;
-    color: #dad3d3;
+    color: #ffffff;
     align-items: center;
     text-align: center;
     font-weight: 600;
@@ -30,7 +30,7 @@
   .product__info {
     font-size: 10px;
     margin-bottom: 15px;
-    color: #dad3d3;
+    color: #ffffff;
     align-items: center;
     text-align: center;
     font-family:SourceSans;
@@ -38,7 +38,7 @@
   .product__price {
     font-size: 15px;
     margin-bottom: 10px;
-    color: blanchedalmond;
+    color: rgb(253, 253, 253);
     display: flex;
     font-family:SourceSans;
   }

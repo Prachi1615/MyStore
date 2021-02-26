@@ -8,7 +8,7 @@ function Lighters() {
         <nav className="lighters">
             <div className="brand">
                 <h1>
-                    Lighters
+                    LIGHTERS
                 </h1>
                 <br />
 
