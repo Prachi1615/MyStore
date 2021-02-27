@@ -1,0 +1,16 @@
+.hookah{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    z-index: 1;
+    justify-content: center;
+    margin-top: 300px;
+}
+.title{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family:SourceSans;
+}
