@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c523586.chunk.css",
-    "main.js": "/static/js/main.e5272a0e.chunk.js",
+    "main.css": "/static/css/main.32099dba.chunk.css",
+    "main.js": "/static/js/main.7471b040.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.e4499a0b.js",
-    "static/js/2.e357970e.chunk.js": "/static/js/2.e357970e.chunk.js",
+    "static/js/2.3f824f41.chunk.js": "/static/js/2.3f824f41.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.e357970e.chunk.js.LICENSE.txt": "/static/js/2.e357970e.chunk.js.LICENSE.txt",
+    "static/js/2.3f824f41.chunk.js.LICENSE.txt": "/static/js/2.3f824f41.chunk.js.LICENSE.txt",
+    "static/media/Almond Brittle.81bb3750.jpg": "/static/media/Almond Brittle.81bb3750.jpg",
+    "static/media/Bueno.3a354e00.jpg": "/static/media/Bueno.3a354e00.jpg",
     "static/media/index.css": "/static/media/nasalization-rg.94fec615.ttf",
+    "static/media/Dairy milk blaack forest.0ab584f2.jpg": "/static/media/Dairy milk blaack forest.0ab584f2.jpg",
+    "static/media/Dairy milk fruit n nut.1e59baac.jpg": "/static/media/Dairy milk fruit n nut.1e59baac.jpg",
+    "static/media/Dairy milk hazelnut.6a0bdef6.jpg": "/static/media/Dairy milk hazelnut.6a0bdef6.jpg",
+    "static/media/Dairy milk roasted almond.a70f0079.jpg": "/static/media/Dairy milk roasted almond.a70f0079.jpg",
+    "static/media/Hokah 2.a087364f.jpg": "/static/media/Hokah 2.a087364f.jpg",
+    "static/media/Kitkat original.c505e3f4.jpg": "/static/media/Kitkat original.c505e3f4.jpg",
+    "static/media/Lindt apricot.f803ef08.jpg": "/static/media/Lindt apricot.f803ef08.jpg",
+    "static/media/Lindt caramel.123a551d.jpg": "/static/media/Lindt caramel.123a551d.jpg",
+    "static/media/Lindt cherry.48661a1e.jpg": "/static/media/Lindt cherry.48661a1e.jpg",
+    "static/media/Lindt chilli.37f0d481.jpg": "/static/media/Lindt chilli.37f0d481.jpg",
+    "static/media/Lindt cocoa.1722304b.jpg": "/static/media/Lindt cocoa.1722304b.jpg",
+    "static/media/Lindt coconut.fa434608.jpg": "/static/media/Lindt coconut.fa434608.jpg",
     "static/media/dhuandhar.bd7baa00.png": "/static/media/dhuandhar.bd7baa00.png",
+    "static/media/hookah 1.b063e225.jpg": "/static/media/hookah 1.b063e225.jpg",
     "static/media/logo.9ba4ffa3.png": "/static/media/logo.9ba4ffa3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e4499a0b.js",
-    "static/js/2.e357970e.chunk.js",
-    "static/css/main.2c523586.chunk.css",
-    "static/js/main.e5272a0e.chunk.js"
+    "static/js/2.3f824f41.chunk.js",
+    "static/css/main.32099dba.chunk.css",
+    "static/js/main.7471b040.chunk.js"
   ]
 }
