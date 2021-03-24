@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    z-index: 1;
+    z-index: 500;
     justify-content: center;
+    
 }
 .title_menu{
     color:#ffffff;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 3vwpx;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
