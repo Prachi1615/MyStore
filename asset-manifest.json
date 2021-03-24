@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3835137.chunk.css",
+    "main.css": "/static/css/main.25c18f26.chunk.css",
     "main.js": "/static/js/main.641658e1.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.e4499a0b.js",
     "static/js/2.3f824f41.chunk.js": "/static/js/2.3f824f41.chunk.js",
@@ -8,7 +8,7 @@
     "static/js/2.3f824f41.chunk.js.LICENSE.txt": "/static/js/2.3f824f41.chunk.js.LICENSE.txt",
     "static/media/Almond Brittle.81bb3750.jpg": "/static/media/Almond Brittle.81bb3750.jpg",
     "static/media/Bueno.3a354e00.jpg": "/static/media/Bueno.3a354e00.jpg",
-    "static/media/index.css": "/static/media/nasalization-rg.94fec615.ttf",
+    "static/media/index.css": "/static/media/SourceSansPro-Regular.358e8828.ttf",
     "static/media/Dairy milk blaack forest.0ab584f2.jpg": "/static/media/Dairy milk blaack forest.0ab584f2.jpg",
     "static/media/Dairy milk fruit n nut.1e59baac.jpg": "/static/media/Dairy milk fruit n nut.1e59baac.jpg",
     "static/media/Dairy milk hazelnut.6a0bdef6.jpg": "/static/media/Dairy milk hazelnut.6a0bdef6.jpg",
@@ -34,12 +34,13 @@
     "static/media/Vape 2.911555db.jpg": "/static/media/Vape 2.911555db.jpg",
     "static/media/dhuandhar.bd7baa00.png": "/static/media/dhuandhar.bd7baa00.png",
     "static/media/hookah 1.b063e225.jpg": "/static/media/hookah 1.b063e225.jpg",
-    "static/media/logo.9ba4ffa3.png": "/static/media/logo.9ba4ffa3.png"
+    "static/media/logo.9ba4ffa3.png": "/static/media/logo.9ba4ffa3.png",
+    "static/media/nasalization-rg.94fec615.ttf": "/static/media/nasalization-rg.94fec615.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.e4499a0b.js",
     "static/js/2.3f824f41.chunk.js",
-    "static/css/main.f3835137.chunk.css",
+    "static/css/main.25c18f26.chunk.css",
     "static/js/main.641658e1.chunk.js"
   ]
 }
