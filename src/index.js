@@ -7,6 +7,7 @@ import './fonts/nasalization-rg.ttf'
 import './fonts/CrimsonText-Regular.ttf'
 import './fonts/CrimsonText-Bold.ttf'
 import './fonts/SourceSansPro-Regular.ttf'
+import 'hamburgers'
 
 ReactDOM.render(
   <React.StrictMode>

@@ -2,12 +2,13 @@
     display: flex;
     align-items:center;
     top: 0;
-    z-index: 100;
+    z-index: 10;
     justify-content: space-evenly;
     position: sticky;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
+    height: 40px;
 }
 
 
@@ -16,12 +17,20 @@
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    font-weight: 800;
-    font-size: 18px;
-    font-family:CrimsonBold;
+    font-weight: 1vw;
+    font-size:20px;
+    font-family:SourceSans;
     text-decoration-color: unset;
     justify-content: space-evenly;
     text-align: center;
+    
+}
+.header__option1{
+    text-decoration: none;
+    display: flex;
+    font-family:SourceSans;
+    text-decoration-color: unset;
+    margin-left: 0px;
     
 }
 :link{
@@ -37,4 +46,10 @@
     object-fit: contain;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.bar{
+    margin-top: 5px;
+    margin-left: 5px;
+    left: 0;
 }
