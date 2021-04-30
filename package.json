@@ -75,11 +75,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prachi1615/DhuanDhar.git"
+    "url": "git+https://github.com/Prachi1615/MyStore.git"
   },
   "author": "prachi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Prachi1615/DhuanDhar/issues"
+    "url": "https://github.com/Prachi1615/MyStore/issues"
   }
 }
