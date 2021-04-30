@@ -8,7 +8,7 @@ function Lighters() {
         <nav className="lighters">
             <div className="brand">
                 <h1>
-                    LIGHTERS
+                    ELECTRONICS
                 </h1>
                 <br />
 
@@ -16,20 +16,20 @@ function Lighters() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title={"PLASTIC \nCIGARETTE LIGHTER"}
-                        price=" 9"
+                        title={"WHIRLPOOL SEMI AUTOMATIC MACHINE"}
+                        price=" 9000"
                         content="per piece"> </Product>
                     <Product
-                        title={"FANCY \nCIGARETTE LIGHTER"}
-                        price=" 25"
+                        title={"WHIRLPOOL FULLY AUTOMATIC MACHINE"}
+                        price=" 11000"
                         content="per piece"> </Product>
                     <Product
-                        title={"FANCY METAL \nCIGARETTE LIGHTERS"}
-                        price=" 50"
+                        title={"ONEPLUS 8T"}
+                        price=" 38999"
                         content="per piece"> </Product>
                     <Product
-                        title="APPLE LIGHTER"
-                        price=" 50"
+                        title="ONEPLUS 9R"
+                        price=" 39999"
                         content="per piece"> </Product>
 
 

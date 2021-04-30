@@ -7,8 +7,6 @@ import img3 from '../Media/Dairy milk blaack forest.jpg'
 import img4 from '../Media/Dairy milk fruit n nut.jpg'
 import img5 from '../Media/Dairy milk hazelnut.jpg'
 import img6 from '../Media/Dairy milk roasted almond.jpg'
-import img7 from '../Media/Hokah 2.jpg'
-import img8 from '../Media/hookah 1.jpg'
 import img9 from '../Media/Kitkat original.jpg'
 import img11 from '../Media/Lindt apricot.jpg'
 import img12 from '../Media/Lindt caramel.jpg'
@@ -22,18 +20,12 @@ import img18 from '../Media/Lindt mint.jpg'
 import img19 from '../Media/Lindt orange.jpg'
 import img20 from '../Media/Lindt strawberry.jpg'
 import img21 from '../Media/Nutella B ready.jpg'
-import img22 from '../Media/OCB 1.jpg'
-import img23 from '../Media/OCB 2.jpg'
-import img24 from '../Media/Skull hookah.jpg'
-import img25 from '../Media/Vape 1.jpg'
-import img26 from '../Media/Vape 2.jpg'
 
 
 const slideImages = [
-    { src: img1 }, { src: img2 }, { src: img3 }, { src: img4 }, { src: img5 }, { src: img6 }, { src: img7 }, { src: img8 },
+    { src: img1 }, { src: img2 }, { src: img3 }, { src: img4 }, { src: img5 }, { src: img6 },
     { src: img9 }, { src: img10 }, { src: img13 }, { src: img11 }, { src: img12 }, { src: img14 }, { src: img15 },
-    { src: img16 }, { src: img17 }, { src: img18 }, { src: img19 }, { src: img20 }, { src: img21 }, { src: img22 },
-    { src: img23 }, { src: img24 }, { src: img25 }, { src: img26 }
+    { src: img16 }, { src: img17 }, { src: img18 }, { src: img19 }, { src: img20 }, { src: img21 }
 ];
 
 const delay = 2500;

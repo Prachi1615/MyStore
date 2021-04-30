@@ -9,7 +9,6 @@ import SignIn from "./Components/SignIn"
 import FAQ from "./Components/FAQ"
 import Menu from './Components/Menu'
 import Cigs from './Components/Ciggarettes'
-import Hookah from './Components/Hookah'
 import Food from './Components/FoodNDrinks'
 import Lighter from './Components/Lighters'
 import Medwakh from './Components/MedwakhAndDokha'
@@ -32,7 +31,6 @@ function App() {
             <Header />
             <Sidebar className="bar" />
             <Menu />
-            <Home />
             <Slideshow />
 
 
@@ -60,30 +58,20 @@ function App() {
             <Sidebar className="bar" />
             <SignIn />
           </Route>
-          <Route exact path="/cigarettes">
+          <Route exact path="/clothes">
             <Header />
             <Sidebar className="bar" />
             <Cigs />
           </Route>
-          <Route exact path="/hookah">
-            <Header />
-            <Sidebar className="bar" />
-            <Hookah />
-          </Route>
-          <Route exact path="/food&drinks">
+          <Route exact path="/chocolates">
             <Header />
             <Sidebar className="bar" />
             <Food />
           </Route>
-          <Route exact path="/lighter">
+          <Route exact path="/electronics">
             <Header />
             <Sidebar className="bar" />
             <Lighter />
-          </Route>
-          <Route exact path="/medwakh">
-            <Header />
-            <Sidebar className="bar" />
-            <Medwakh />
           </Route>
 
           {/* <Route path="/contactUs/location"

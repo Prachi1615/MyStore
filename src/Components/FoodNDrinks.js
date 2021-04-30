@@ -8,63 +8,6 @@ function FoodNDrinks() {
         <nav className="food">
             <div className="brand">
                 <h1>
-                    DRINKS
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title={'BADAM MILK'}
-                        price=" 70"
-                        content="HOMEMADE"> </Product>
-                    <Product
-                        title={'LASSI'}
-                        price=" 60"
-                        content="HOMEMADE"> </Product>
-                    <Product
-                        title={'RED BULL \nENERGY DRINK'}
-                        price=" 115"> </Product>
-                    <Product
-                        title={'RED BULL \nYELLOW EDITION'}
-                        price=" 115"> </Product>
-                    <Product
-                        title={'TENDER COCONUT \nWATER 200ML'}
-                        price=" 45"> </Product>
-                    <Product
-                        title={'7UP CAN'}
-                        price=" 25"> </Product>
-                    <Product
-                        title={'MOUNTAIN DEW \nCAN'}
-                        price=" 25"> </Product>
-                    <Product
-                        title={'COCA-COLA \nCAN'}
-                        price=" 40"> </Product>
-                    <Product
-                        title={'PEPSI CAN'}
-                        price=" 25"> </Product>
-                    <Product
-                        title={'PEPSI ZERO \nCAN'}
-                        price=" 25"> </Product>
-                    <Product
-                        title={'HERSHEY\'S \nSTRAWBERRY MILK'}
-                        price=" 35"> </Product>
-                    <Product
-                        title={'HERSHEY\'S \nCOOKIE \'N\' CREAM \nMILK'}
-                        price=" 35"> </Product>
-                    <Product
-                        title={'BISLERI SODA '}
-                        price=" 20"> </Product>
-                    <Product
-                        title={'HELL \nENERGY DRINK '}
-                        price=" 50"> </Product>
-
-                </Grid>
-            </div>
-
-            <div className="brand">
-                <h1>
                     CHOCOLATES
                 </h1>
                 <br />
@@ -151,30 +94,7 @@ function FoodNDrinks() {
 
                 </Grid>
             </div>
-            <div className="brand">
-                <h1>
-                    SOUR PUNK
-                </h1>
-                <br />
 
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title={"SOUR PUNK \nGREEN APPLE"}
-                        price=" 30"> </Product>
-                    <Product
-                        title={"SOUR PUNK \nSTRAWBERRY"}
-                        price=" 30"> </Product>
-                    <Product
-                        title={"SOUR PUNK \nBLUEBERRY"}
-                        price=" 30"> </Product>
-                    <Product
-                        title={"SOUR PUNK \nCOLA"}
-                        price=" 30"> </Product>
-
-                </Grid>
-            </div>
             <div className="brand">
                 <h1>
                     IMPORTED CHOCOLATES AND SNACKS
@@ -348,40 +268,7 @@ function FoodNDrinks() {
 
                 </Grid>
             </div>
-            <div className="brand">
-                <h1>
-                    PROTEIN BARS
-                </h1>
-                <br />
 
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title={"PEANUT BUTTER"}
-                        price=" 40"> </Product>
-                    <Product
-                        title={"CHOCO BERRY BAR"}
-                        price=" 65"> </Product>
-                    <Product
-                        title={"BLUEBERRY PIE"}
-                        price=" 50"> </Product>
-                    <Product
-                        title={"APRICOT FIG"}
-                        price=" 50"> </Product>
-                    <Product
-                        title={"YOGURT BERRY"}
-                        price=" 35"> </Product>
-                    <Product
-                        title={"NUTS & SEEDS"}
-                        price=" 40"> </Product>
-                    <Product
-                        title={"CHOCO DELITE"}
-                        price=" 35"> </Product>
-
-
-                </Grid>
-            </div>
         </nav>
     )
 }

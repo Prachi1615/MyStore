@@ -47,48 +47,27 @@ class Sidebar extends React.Component {
 
                 <div className={this.state.style}>
                     <ul className="list">
-                        <Link to="/cigarettes">
+                        <Link to="/clothes">
                             <div className="prod_row">
                                 <Category
-                                    title="CIGARETTES"
-                                    image="https://i.ibb.co/b1vHbXj/Cigarette-clip-art-29.png">
+                                    title="CLOTHES">
 
                                 </Category>
                             </div>
                         </Link>
 
-                        <Link to="/food&drinks">
+                        <Link to="/chocolates">
                             <div className="prod_row">
                                 <Category
-                                    title="SNACKS AND BEVERAGES"
-                                    image="https://www.pinclipart.com/picdir/big/422-4226856_bbq-clipart-free-food-clipart-black-and-white.png">
-
+                                    title="CHOCOLATES"
+                                >
                                 </Category>
                             </div>
                         </Link>
-                        <Link to="/lighter">
+                        <Link to="/electronics">
                             <div className="prod_row">
                                 <Category
-                                    title="LIGHTERS"
-                                    image="https://i.ibb.co/cxqm4CS/lighter-clip-art-30.png">
-
-                                </Category>
-                            </div>
-                        </Link>
-                        <Link to="/hookah">
-                            <div className="prod_row">
-                                <Category
-                                    title="HOOKAH"
-                                    image="https://i.ibb.co/s5TqCds/Hookah.png">
-
-                                </Category>
-                            </div>
-                        </Link>
-                        <Link to="/medwakh">
-                            <div className="prod_row">
-                                <Category
-                                    title="MEDWAKH AND DOKHA"
-                                    image="https://i.ibb.co/JvSYFkN/Cigarette-clip-art-8.png">
+                                    title="ELECTRONICS">
 
                                 </Category>
                             </div>
