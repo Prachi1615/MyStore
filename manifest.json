@@ -1,19 +1,19 @@
 {
-  "short_name": "Dhuandar",
-  "name": "Dhuandhar Store",
+  "short_name": "MyStore",
+  "name": "MyStore",
   "icons": [
     {
-      "src": "dhuandhar.png",
+      "src": "logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "dhuandhar.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "dhuandhar.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/MyStore/static/css/main.a7efe1a7.chunk.css",
-    "main.js": "/MyStore/static/js/main.bff9bc72.chunk.js",
+    "main.css": "/MyStore/static/css/main.91ff2a77.chunk.css",
+    "main.js": "/MyStore/static/js/main.8d9f7515.chunk.js",
     "runtime-main.js": "/MyStore/static/js/runtime-main.d7969e78.js",
-    "static/js/2.d7cd5254.chunk.js": "/MyStore/static/js/2.d7cd5254.chunk.js",
+    "static/js/2.d094071b.chunk.js": "/MyStore/static/js/2.d094071b.chunk.js",
     "index.html": "/MyStore/index.html",
-    "static/js/2.d7cd5254.chunk.js.LICENSE.txt": "/MyStore/static/js/2.d7cd5254.chunk.js.LICENSE.txt",
+    "static/js/2.d094071b.chunk.js.LICENSE.txt": "/MyStore/static/js/2.d094071b.chunk.js.LICENSE.txt",
     "static/media/Almond Brittle.81bb3750.jpg": "/MyStore/static/media/Almond Brittle.81bb3750.jpg",
     "static/media/Bueno.3a354e00.jpg": "/MyStore/static/media/Bueno.3a354e00.jpg",
     "static/media/index.css": "/MyStore/static/media/SourceSansPro-Regular.358e8828.ttf",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d7969e78.js",
-    "static/js/2.d7cd5254.chunk.js",
-    "static/css/main.a7efe1a7.chunk.css",
-    "static/js/main.bff9bc72.chunk.js"
+    "static/js/2.d094071b.chunk.js",
+    "static/css/main.91ff2a77.chunk.css",
+    "static/js/main.8d9f7515.chunk.js"
   ]
 }
