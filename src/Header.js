@@ -11,7 +11,7 @@ function Header() {
         <nav className="header">
             <Link to="/">
                 <div className="header__option">
-                    DHUANDHAR
+                    MY STORE
                 </div>
 
             </Link>

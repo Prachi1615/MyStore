@@ -8,7 +8,7 @@ function Ciggarettes() {
         <nav className="ciggarettes">
             <div className="brand">
                 <h1>
-                    ITC
+                    JEANS
                 </h1>
                 <br />
 
@@ -16,60 +16,58 @@ function Ciggarettes() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title={"GOLD FLAKE \nKINGS"}
-                        price=" 330"
-                        content="Pack of 20"> </Product>
+                        title={"PEOPLE"}
+                        price=" 1500"> </Product>
                     <Product
-                        title={"GOLD FLAKE \nKINGS"}
-                        price=" 165"
-                        content="Pack of 10"> </Product>
+                        title={"LEVI's"}
+                        price=" 1500"> </Product>
                     <Product
-                        title={"GOLD FLAKE \nLIGHTS"}
-                        price=" 330"
-                        content="Pack of 20"> </Product>
+                        title={"BLACKBERRY"}
+                        price=" 1500"> </Product>
                     <Product
-                        title={"GOLD FLAKE \nLIGHTS"}
-                        price=" 165"
-                        content="Pack of 10"> </Product>
+                        title={"PEOPLE"}
+                        price=" 3500"> </Product>
                     <Product
-                        title={"CLASSIC \nMILDS"}
-                        price=" 330"
-                        content="Pack of 20"> </Product>
+                        title={"LEVI's"}
+                        price=" 3500"> </Product>
                     <Product
-                        title={"CLASSIC \nULTRA MILDS"}
-                        price=" 330"
-                        content="Pack of 20"> </Product>
+                        title={"BLACKBERRY"}
+                        price=" 3500"> </Product>
+                </Grid>
 
-                    <Product
-                        title={"CLASSIC \nICE BURST"}
-                        price=" 330"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title={"CLASSIC \nLOW SMELL"}
-                        price=" 330"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title={"GOLD FLAKE \nSMALL"}
-                        price=" 100"
-                        content="Pack of 10"> </Product>
-                    <Product
-                        title="FLAKE PREMIUM"
-                        price=" 80"
-                        content="Pack of 10"> </Product>
-                    <Product
-                        title="BERKLEY"
-                        price="60"
-                        content="Pack of 10"> </Product>
-                    <Product
-                        title="PLAYER's"
-                        price="60"
-                        content="Pack of 10"> </Product>
+            </div>
+            <div className="brand">
+                <h1>
+                    SHIRT
+                </h1>
+                <br />
 
+                <Grid className="grid"
+                    container direction="row"
+                    justify="center">
+                    <Product
+                        title={"PEOPLE"}
+                        price=" 1500"> </Product>
+                    <Product
+                        title={"LEVI's"}
+                        price=" 1500"> </Product>
+                    <Product
+                        title={"BLACKBERRY"}
+                        price=" 1500"> </Product>
+                    <Product
+                        title={"PEOPLE"}
+                        price=" 3500"> </Product>
+                    <Product
+                        title={"LEVI's"}
+                        price=" 3500"> </Product>
+                    <Product
+                        title={"BLACKBERRY"}
+                        price=" 3500"> </Product>
                 </Grid>
             </div>
             <div className="brand">
                 <h1>
-                    MARLBORO
+                    JACKET
                 </h1>
                 <br />
 
@@ -77,164 +75,25 @@ function Ciggarettes() {
                     container direction="row"
                     justify="center">
                     <Product
-                        title={"MARLBORO \nRED"}
-                        price="330"
-                        content="Pack of 20"> </Product>
+                        title={"PEOPLE"}
+                        price=" 1500"> </Product>
                     <Product
-                        title={"MARLBORO \nADVANCE"}
-                        price="330"
-                        content="Pack of 20"> </Product>
+                        title={"LEVI's"}
+                        price=" 1500"> </Product>
                     <Product
-                        title={"MARLBORO \nGOLD"}
-                        price="330"
-                        content="Pack of 20"> </Product>
+                        title={"BLACKBERRY"}
+                        price=" 1500"> </Product>
                     <Product
-                        title={"MARLBORO \nDOUBLE SWITCH"}
-                        price="330"
-                        content="Pack of 20"> </Product>
+                        title={"PEOPLE"}
+                        price=" 3500"> </Product>
+                    <Product
+                        title={"LEVI's"}
+                        price=" 3500"> </Product>
+                    <Product
+                        title={"BLACKBERRY"}
+                        price=" 3500"> </Product>
                 </Grid>
             </div>
-            <div className="brand">
-                <h1>
-                    DUNHILL
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title="DUNHILL BLUE"
-                        price="305"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="DUNHILL SILVER"
-                        price="305"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="DUNHILL GREEN"
-                        price="305"
-                        content="Pack of 20"> </Product>
-                </Grid>
-            </div>
-            <div className="brand">
-                <h1>
-                    DAVIDOFF
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title="DAVIDOFF WHITE"
-                        price="305"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="DAVIDOFF GOLD "
-                        price="305"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title={"DAVIDOFF WHITE \nSLIM"}
-                        price="290"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title={"DAVID OFF GOLD \nSLIM"}
-                        price="290"
-                        content="Pack of 20"> </Product>
-                </Grid>
-            </div>
-            <div className="brand">
-                <h1>
-                    ESSE
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title="ESSE GOLD"
-                        price="155"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="ESSE LIGHTS"
-                        price="145"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="ESSE BLACK"
-                        price="175"
-                        content="Pack of 20"> </Product>
-                </Grid>
-            </div>
-
-            <div className="brand">
-                <h1>
-                    MOND
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title={"MOND \nGREEN APPLE"}
-                        price="120"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title={"MOND \nSTRAWBERRY"}
-                        price="120"
-                        content="Pack of 20"> </Product>
-                </Grid>
-            </div>
-            <div className="brand">
-                <h1>
-                    L&M
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-                    <Product
-                        title="L&M BLUE"
-                        price="210"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="L&M RED"
-                        price="210"
-                        content="Pack of 20"> </Product>
-                </Grid>
-            </div>
-            <div className="brand">
-                <h1>
-                    OTHER BRANDS
-                </h1>
-                <br />
-
-                <Grid className="grid"
-                    container direction="row"
-                    justify="center">
-
-                    <Product
-                        title="PARIS"
-                        price="140"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="WIN"
-                        price="140"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="BLACK"
-                        price="140"
-                        content="Pack of 20"> </Product>
-                    <Product
-                        title="GUDANG GARAM"
-                        price="140"
-                        content="Pack of 12"> </Product>
-                </Grid>
-            </div>
-
 
 
         </nav>

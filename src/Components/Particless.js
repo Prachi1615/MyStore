@@ -20,7 +20,7 @@ function Particless() {
                             "options": {
                                 "image":
                                 {
-                                    src: "https://i.ibb.co/85Wx921/2.png"
+                                    src: "https://clipart-best.com/img/smoke/smoke-clip-art-101.png"
 
                                 }
                             }

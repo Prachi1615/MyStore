@@ -25,11 +25,11 @@ function Menu() {
                         FAQs
                            </div>
                 </Link>
-                {/* <Link to="/SignIn">
+                <Link to="/SignIn">
                     <div className="sidebar__option">
                         SignIn/SignUp
                            </div>
-                </Link> */}
+                </Link>
             </Grid>
 
 

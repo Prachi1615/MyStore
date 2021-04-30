@@ -11,13 +11,13 @@ function ContactUs() {
                 <div >
                     <div className="content1">
                         <h3>Call us on:</h3>
-            +91 8792122821
+            +91 8861049442
                     </div>
                     <br />
                     <br />
                     <div className="content2">
                         <h3>Email us on:</h3>
-            customercare@dhuandhar.store
+            prachi1615@gmail.com
                     </div>
                     <br />
                     <br />

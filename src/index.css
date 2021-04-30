@@ -13,10 +13,6 @@ code {
     monospace;
 }
 @font-face {
-  font-family: 'Nasalization';
-  src: local('Nasalization'), url(./fonts/nasalization-rg.ttf) format('truetype');
-}
-@font-face {
   font-family: 'CrimsonR';
   src: local('Crimson'), url(./fonts/CrimsonText-Regular.ttf) format('truetype');
 }
